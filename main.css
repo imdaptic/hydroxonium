@@ -1,0 +1,126 @@
+body {
+	background-color: #0a0a0a;
+	background-image: url("https://file.garden/Z9LVZzNW90XYTAye/hydroxbg.png");
+	background-size: 50px 50px;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	animation: shiftbackground 20s linear infinite alternate;
+	font-family: DM Sans;
+	cursor: url('https://cdn.cursors-4u.net/previews/chrome-pointer-4db561db-32.webp') 34 34, auto;
+}
+
+@keyframes shiftbackground {
+	from {
+		background-position-y: 0
+	}
+	to {
+		background-position-y: 270px
+	}
+}
+
+#container {
+	max-width: 1200px;
+	margin: auto;
+	box-shadow: 5px 5px 5px black;
+}
+
+#site-logo {
+	width: 100%;
+	background-color: #1c1c1c;
+	border-bottom: 3px solid white;
+}
+
+.website-logo {
+	padding-left: 8px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+	padding: 0px 20px;
+}
+a:link {
+	color: white;
+	display: inline-block;
+}
+
+.rss {
+	position: fixed;
+  	bottom: 27px;
+  	left: 36px;
+}
+
+
+a:hover {
+	color: grey;
+}
+
+nav {
+	background-color: black;
+	border-bottom: 3px solid white;
+	padding: 1px 2px;
+}
+
+#updates {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: 1px solid white;
+	height: 360px;
+	padding-right: 20px;
+}
+
+h1 {
+	color: white;
+	text-decoration: underline;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+#main-site {
+	padding-bottom: 1px;
+	padding-top: 1px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: black;
+	font-family: DM Sans;
+	border-bottom: 3px solid white;
+}
+
+#supporters {
+	color: white;
+}
+
+#footer {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #171717;
+	padding: 5px 20px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer a:hover {
+	color: grey;
+	text-decoration: underline;
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	filter: drop-shadow(5px 5px 5px black);
+}
