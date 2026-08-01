@@ -8,6 +8,14 @@
 	<ttl>30</ttl>
 
 	<item>
+		<title>[7/31/2026]</title>
+		<description>Removed RiveStream and Added dulo. Sorry for the frequent updates as host migration was really hectic.</description>
+		<link>https://hydroxonium.xyz</link>
+		<guid>post-6</guid>
+		<pubDate>Sat, 01 Aug 2026 02:34:58 +0000</pubDate>
+	</item>
+	
+	<item>
 		<title>[7/30/2026]</title>
 		<description>Changed most of the filehosts to alleviate download speed issues.</description>
 		<link>https://hydroxonium.xyz/</link>
